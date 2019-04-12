@@ -8,6 +8,7 @@
 
 import Foundation
 
+// Defines a page containing a story (artwork, text) and optional choices
 class Page {
     let story: Story
     
@@ -21,6 +22,7 @@ class Page {
     }
 }
 
+// Implements a page with choice text and the story they lead to
 extension Page {
     func addChoiceWith(title: String, story: Story) -> Page {
         let page = Page(story: story)
