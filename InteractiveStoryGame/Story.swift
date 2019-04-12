@@ -8,7 +8,7 @@
 
 import UIKit
 
-// Story chapters 
+// Defines chapter names for each individual part of the story
 enum Story {
     case returnTrip
     case touchDown
@@ -21,6 +21,7 @@ enum Story {
     case home
 }
 
+// Provides implementation for each chapter, including associated artwork and text
 extension Story {
     var artwork: UIImage {
         switch self {
