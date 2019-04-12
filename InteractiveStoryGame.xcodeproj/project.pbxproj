@@ -16,6 +16,10 @@
 		C5EC5176226106FB00BD0C9D /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EC5175226106FB00BD0C9D /* Page.swift */; };
 		C5EC517822610D7D00BD0C9D /* Adventure.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EC517722610D7D00BD0C9D /* Adventure.swift */; };
 		C5EC517A2261124000BD0C9D /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EC51792261124000BD0C9D /* PageController.swift */; };
+		C5EC517F2261423F00BD0C9D /* Ominous.wav in Resources */ = {isa = PBXBuildFile; fileRef = C5EC517C2261423F00BD0C9D /* Ominous.wav */; };
+		C5EC51802261423F00BD0C9D /* HappyEnding.wav in Resources */ = {isa = PBXBuildFile; fileRef = C5EC517D2261423F00BD0C9D /* HappyEnding.wav */; };
+		C5EC51812261423F00BD0C9D /* PageTurn.wav in Resources */ = {isa = PBXBuildFile; fileRef = C5EC517E2261423F00BD0C9D /* PageTurn.wav */; };
+		C5EC5183226142B400BD0C9D /* Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EC5182226142B400BD0C9D /* Audio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		C5EC5175226106FB00BD0C9D /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		C5EC517722610D7D00BD0C9D /* Adventure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adventure.swift; sourceTree = "<group>"; };
 		C5EC51792261124000BD0C9D /* PageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
+		C5EC517C2261423F00BD0C9D /* Ominous.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Ominous.wav; sourceTree = "<group>"; };
+		C5EC517D2261423F00BD0C9D /* HappyEnding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = HappyEnding.wav; sourceTree = "<group>"; };
+		C5EC517E2261423F00BD0C9D /* PageTurn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = PageTurn.wav; sourceTree = "<group>"; };
+		C5EC5182226142B400BD0C9D /* Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,12 +76,24 @@
 				C5EC517722610D7D00BD0C9D /* Adventure.swift */,
 				C5EC5175226106FB00BD0C9D /* Page.swift */,
 				C5EC5173226100F600BD0C9D /* Story.swift */,
+				C5EC5182226142B400BD0C9D /* Audio.swift */,
 				C589DD352260F61D00CA38CC /* Main.storyboard */,
-				C589DD382260F61E00CA38CC /* Assets.xcassets */,
 				C589DD3A2260F61E00CA38CC /* LaunchScreen.storyboard */,
+				C589DD382260F61E00CA38CC /* Assets.xcassets */,
+				C5EC517B2261421D00BD0C9D /* Resources */,
 				C589DD3D2260F61E00CA38CC /* Info.plist */,
 			);
 			path = InteractiveStoryGame;
+			sourceTree = "<group>";
+		};
+		C5EC517B2261421D00BD0C9D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C5EC517D2261423F00BD0C9D /* HappyEnding.wav */,
+				C5EC517C2261423F00BD0C9D /* Ominous.wav */,
+				C5EC517E2261423F00BD0C9D /* PageTurn.wav */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +155,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C589DD3C2260F61E00CA38CC /* LaunchScreen.storyboard in Resources */,
+				C5EC517F2261423F00BD0C9D /* Ominous.wav in Resources */,
+				C5EC51802261423F00BD0C9D /* HappyEnding.wav in Resources */,
 				C589DD392260F61E00CA38CC /* Assets.xcassets in Resources */,
+				C5EC51812261423F00BD0C9D /* PageTurn.wav in Resources */,
 				C589DD372260F61D00CA38CC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,6 +176,7 @@
 				C5EC5176226106FB00BD0C9D /* Page.swift in Sources */,
 				C5EC517822610D7D00BD0C9D /* Adventure.swift in Sources */,
 				C5EC5174226100F600BD0C9D /* Story.swift in Sources */,
+				C5EC5183226142B400BD0C9D /* Audio.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
