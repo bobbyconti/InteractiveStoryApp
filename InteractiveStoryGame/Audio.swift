@@ -9,6 +9,7 @@
 import Foundation
 import AudioToolbox
 
+// Extending Story to associate sound effects with each story
 extension Story {
     var soundEffectName: String {
         switch self {
@@ -25,12 +26,13 @@ extension Story {
     }
 }
 
+// Plays sound effects for a particular story
 class SoundEffectsPlayer {
-    var sound: SystemSoundID = 0    // Stores the byte representation of sound file
+    var sound: SystemSoundID = 0        // Stores the byte representation of sound effect
     
     func playSound(for story: Story) {
         let soundURL = story.soundEffectURL as CFURL
-        AudioServicesCreateSystemSoundID(soundURL, &sound)
+        AudioServicesCreateSystemSoundID(soundURL, &sound)      // Pass by reference, using less memory
         AudioServicesPlaySystemSound(sound)
     }
 }

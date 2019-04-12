@@ -28,7 +28,7 @@ struct Adventure {
         let cave = rover.addChoiceWith(title: "Explore the Coordinates", story: .cave)
         rover.addChoiceWith(title: "Return to Earth", page: home)
         
-        cave.addChoiceWith(title: "Continue towards faint light", story: .droid(name: name))
+        cave.addChoiceWith(title: "Continue towards faint light", story: .droid)
         cave.addChoiceWith(title: "Refill the ship and explore the rover", page: rover)
         
         crate.addChoiceWith(title: "Explore the Rover", page: rover)
