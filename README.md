@@ -1,4 +1,4 @@
-# InteractiveStoryGame
+# InteractiveStoryApp
 
 ## Overview
 
