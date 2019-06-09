@@ -29,6 +29,8 @@ InteractiveStoryGame is a story-based game that guides players through a space-t
 
 ## :clap: Acknowledgements
 
-InteractiveStoryGame is a project from the [Build an Interactive Story App with Swift](https://teamtreehouse.com/library/build-an-interactive-story-app-with-swift) course at [Treehouse](https://teamtreehouse.com). All custom code is my own, but rights to the original concept, artwork and base code are reserved by Treehouse.
+The following resources were used in the development of this project. All custom code is my own.
+
+- [Build an Interactive Story App with Swift](https://teamtreehouse.com/library/build-an-interactive-story-app-with-swift)
 
 Interested in learning more about iOS Development? [Sign up today](http://referrals.trhou.se/bobbyconti1)!
