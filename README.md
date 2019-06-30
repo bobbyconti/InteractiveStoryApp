@@ -1,6 +1,6 @@
 # InteractiveStoryGame
 
-## :clipboard: Overview
+## Overview
 
 <div style="width: 1000px; height 600px;"><img src="screencap.gif" width="30%" height="30%" align="right"></div>
 
@@ -13,9 +13,9 @@ InteractiveStoryGame is a story-based game that guides players through a space-t
 - Programmatic Layout
 - Audio APIs
 
-## :white_check_mark: Getting Started
+## Getting Started
 
-> :warning: This app is not available on the Apple App Store.
+> This app is not available on the Apple App Store.
 
 ### Prerequisites
 
@@ -27,7 +27,7 @@ InteractiveStoryGame is a story-based game that guides players through a space-t
 2. Open the project in Xcode
 3. Run the simulator
 
-## :clap: Acknowledgements
+## Acknowledgements
 
 The following resources were used in the development of this project. All custom code is my own.
 
